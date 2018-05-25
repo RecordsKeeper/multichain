@@ -63,7 +63,7 @@ The RecordsKeeper specifications are as follows:
 * Max Block Size: 8 MB
 * Avg Block Frequency: 15 seconds
 * Mining Algorithm: POW 
-* Premined Tokens: 50 Million XRK
+* Premined Tokens: 300 Million XRK
 * Mining Reward: 10 XRK
 * Max Transaction Size: 4 MB
 * Max OP_RETURN Transaction Size: 2 MB
@@ -150,7 +150,7 @@ The current value of XRK is 1 BTC (Bitcoin) = 20,000 XRK. This value is subject 
 How XRK are generated?
 ######################
 
-The premined XRK coins are in total 50 million which you can buy and use for RecordsKeeper. You can also generate and earn more XRK through mining. Refer the mining guide to set up the mining for XRK (Link to mining guide)
+The premined XRK coins are in total 300 million which you can buy and use for RecordsKeeper. You can also generate and earn more XRK through mining. Refer the mining guide to set up the mining for XRK (Link to mining guide)
 
 Can XRK tokens be destroyed or burned?
 ######################################
@@ -160,7 +160,7 @@ XRK can not be destroyed or burned. However, you can send XRK to a NOP_RETURN tr
 How many total XRK are in circulation?
 ######################################
 
-The premined XRK coins are in total 50 Million. This value keeps on increasing as more XRK coins are added through mining rewards which is 10 XRK per Block
+The premined XRK coins are in total 300 Million. This value keeps on increasing as more XRK coins are added through mining rewards which is 10 XRK per Block
 
 How can I get Testnet XRK?
 ##########################
