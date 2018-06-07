@@ -2,7 +2,7 @@
 Mining Guide for Recordskeeper Blockchain
 =========================================
 
-The following guide explain the process of start mining in different operating systems. Feel free to contact RecordKeeper team for any queries related to same at:
+The following guide explains the process to start mining in different operating systems. Feel free to contact RecordKeeper team for any queries related to same at:
 
 * `Facebook <https://www.facebook.com/recordskeeper>`_
 * `Twitter <https://twitter.com/records_keeper>`_
