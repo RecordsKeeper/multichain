@@ -2,7 +2,7 @@
 Mining Guide for Recordskeeper Blockchain on Linux
 ==================================================
 
-The following document helps the users to intiate mining for RecordsKeeper Blockchain over Linux Operating system. All the commands and process displayed in this document is tested and created over Ubuntu Operating System. The detailed overview to start mining for RecordsKeeper Blockchain is as follows:
+The following document helps the users to intiate mining for RecordsKeeper Blockchain over Linux Operating system. All the commands and process displayed in this document is tested and created over Ubuntu 16.04 Operating System. The detailed overview to start mining for RecordsKeeper Blockchain is as follows:
 
 * :ref:`linux-systemrequirements`
 * :ref:`linux-installingrk`
