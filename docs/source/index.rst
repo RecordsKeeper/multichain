@@ -70,7 +70,7 @@ Contents
    overview
    install
    gettingstarted
-   minningguide
+   miningguide
    postman
    usecases
    contributing
