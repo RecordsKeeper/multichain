@@ -1,8 +1,8 @@
 ==================================================
-Mining Guide for Recordskeeper Blockchain on Linux
+Mining Guide for RecordsKeeper Blockchain on Linux
 ==================================================
 
-The following document helps the users to intiate mining for RecordsKeeper Blockchain over Linux Operating system. All the commands and process displayed in this document is tested and created over Ubuntu Operating System. The detailed overview to start mining for RecordsKeeper Blockchain is as follows:
+The following document helps the users to initiate mining for RecordsKeeper blockchain on the Linux operating system. All the commands and processes displayed in this document have been tested and created on the Ubuntu Operating System. The detailed overview to start mining for RecordsKeeper blockchain is as follows:
 
 * :ref:`linux-systemrequirements`
 * :ref:`linux-installingrk`
@@ -13,7 +13,7 @@ The following document helps the users to intiate mining for RecordsKeeper Block
 
 .. _linux-systemrequirements:
 
-System requirements
+System Requirements
 -------------------
 
 * Linux: 64-bit, supports Ubuntu 12.04+, CentOS 6.2+, Debian 7+, Fedora 15+, RHEL 6.2+.
@@ -22,10 +22,10 @@ System requirements
 
 .. _linux-installingrk:
 
-Installing Recordskeeper on Linux
+Installing RecordsKeeper on Linux
 ---------------------------------
 
-First Install these dependencies by executing below commands:
+First, install these dependencies by executing the following commands:
 
 .. code-block:: bash
 
@@ -38,13 +38,13 @@ First Install these dependencies by executing below commands:
 
 To download the executable directly from the browser `click here <https://github.com/RecordsKeeper/recordskeeper-core/releases/download/v1.0.0/recordskeeper-1.0.0.tar.gz>`_ .
 
-And, if you want to download it from the command line terminal then use this command:
+And, if you want to download it from the command line terminal, then use this command:
 
 .. code-block:: bash
 
     wget https://github.com/RecordsKeeper/recordskeeper-core/releases/download/v1.0.0/recordskeeper-1.0.0.tar.gz
 
-Then, move to the location of the downloaded files and run following commands from your 
+Then, move to the location of the downloaded files and run the following commands from your 
 terminal:
 
 .. code-block:: bash
@@ -53,10 +53,10 @@ terminal:
     cd recordskeeper-1.0.0
     mv rkd rk-cli rk-util /usr/local/bin 
 
-Moving the RecordsKeeper files to bin directory make them easily accessible from the command line anywhere.
+Moving the RecordsKeeper files to the bin directory to make them easily accessible from the command line anywhere.
 
 .. note::
-    * if you get error then run the above commands using “sudo” for root privileges 
+    * If you get an error, then run the above commands using “sudo” for root privileges 
     * Use exit command (to return to your regular user)
     * Linux users move directly to the :ref:`connecting-rk` section
 
@@ -65,9 +65,9 @@ Moving the RecordsKeeper files to bin directory make them easily accessible from
 Connecting to RecordsKeeper Blockchain on Linux
 -----------------------------------------------
 
-The RecordsKeeper Testnet Blockchain is avaialble for the users to Develop and Deploy applications over RecordsKeeper Blockchain, XRK Testnet tokens do not hold any value and are only avaialble for testing. You can earn XRK tokens from RecordsKeeper Mainnet mining.
+The RecordsKeeper Testnet blockchain is available for users to develop and deploy applications on. XRK Testnet tokens do not hold any value and are only available for testing. You can earn XRK tokens from RecordsKeeper Mainnet mining.
 
-Now to connect to the RecordsKeeper Blockchain, run following command from the terminal:
+Now, to connect to the RecordsKeeper blockchain, run the following command from the terminal:
 
 **RecordsKeeper Testnet**
 
@@ -99,7 +99,7 @@ And, if you want your connection to remain active as a background process then r
     rkd recordskeeper@35.172.1.247:7895 -daemon
 
 .. note::
-    Linux users now go to the :ref:`mining-permissions` section
+    Linux users can now go to the :ref:`mining-permissions` section.
 
 .. _linux-miningpermissions:
 
@@ -109,7 +109,7 @@ Mining Permissions
 Running RecordsKeeper on Linux
 ##############################
 
-You will see the folowing message on your Linux command line terminal after you execute the command to connect to the Recordskeeper blockchain.
+You will see the following message on your Linux command line terminal after you execute the command to connect to the RecordsKeeper blockchain.
 
 .. image:: _static/LinuxRKD.jpg
    :align: center
@@ -120,24 +120,24 @@ RecordsKeeper Permissions
 
 **RecordsKeeper Testnet**
 
-The mining for RecordsKeeper Testnet is open for everyone so when you connect to RecordsKeeper Testnet, you will receive all the permissions for your default address
+The mining for RecordsKeeper Testnet is open for everyone, so when you connect to RecordsKeeper Testnet, you will receive all the permissions for your default address
 
 **RecordsKeeper Mainnet**
 
-For Mainnet when your node gets connected, you will receive the permissions to connect, send and receive. Now look for your default XRK address from the command given below, which will display your node’s wallet address. This address is your “default XRK address” or “public address” of the Recordskeeper Blockchain in which you will receive XRK coins. To check the address, run the following command:
+For Mainnet, when your node gets connected, you will receive the permissions to connect, send, and receive. Now look for your default XRK address from the command given below, which will display your node’s wallet address. This address is your “default XRK address” or “public address” on the RecordsKeeper blockchain in which you will receive XRK tokens. To check the address, run the following command:
 
 .. code-block:: bash
 
     rk-cli recordskeeper getaddresses
 
-**Submit the following to recieve Mining Permissions for RecordsKeeper Mainnet.**
+**Submit the following to receive mining permissions for RecordsKeeper Mainnet.**
 
 .. note::
     Copy the above generated address and send it to us `here <https://docs.google.com/forms/d/e/1FAIpQLSd1Dd2GAggCyom23HgiBhnQIjlLjMgRwf_UOQrHp9BUTRPEYA/viewform>`_ .
 
-After RecordsKeeper team grant mining permissions to your node address, only after that you would be able to mine XRK coins into your default address.
+Only after the RecordsKeeper team grant mining permissions to your node address will you be able to mine XRK tokens into your default address.
 
-To retrieve private key for your node address run this command:
+To retreive the private key for your node address, run this command:
 
 .. code-block:: bash
 
@@ -145,10 +145,10 @@ To retrieve private key for your node address run this command:
 
 
 .. note::
-    Please store this private key safely, losing this will result in loss of XRK coins.
+    Please store this private key safely. Losing it will result in the loss of XRK tokens.
 
 
-After completing the above process, you can check for your node’s information (best block and synced block) by running following commands:
+After completing the above process, you can check for your node’s information (best block and synced block) by running the following commands:
 
 .. code-block:: bash
 
@@ -156,15 +156,15 @@ After completing the above process, you can check for your node’s information 
     rk-cli recordskeeper getblockchaininfo       #(for best block)
 
 
-Your node will sync up to the best block, and then only your node can start mining and your balance will get updated with the mined XRK coins.
+Your node will sync with the best block, and then only your node can start mining and your balance will get updated with the mined XRK tokens.
 
-In case you have entered the wrong ip-address then it will report this error:
+If you have entered the wrong IP-address, then it will report this error:
 
 .. warning::
 
     Error: Couldn't initialize permission database for blockchain recordskeeper. Probably rkd for this blockchain is already running. Exiting...
 
-Please check ip-address and port properly to connect to the RecordsKeeper Blockchain.
+Please check the IP address and port properly to connect to the RecordsKeeper blockchain.
 
 .. note::
 
@@ -179,9 +179,9 @@ Please check ip-address and port properly to connect to the RecordsKeeper Blockc
 Connecting to RecordsKeeper Blockchain after Permissions
 --------------------------------------------------------
 
-Once the permissions for RecordsKeeper Mainnet has been granted. You can directly connect to the RecordsKeeper chain and see your mining over the Public RecordsKeeper Blockchain. You can run following commands to connect to the RecordsKeeper Blockchain and view the mining address.
+Once the permissions for the RecordsKeeper Mainnet have been granted, you can directly connect to the RecordsKeeper chain and see your mining progress. You can run the following commands to connect to the RecordsKeeper blockchain and view the mining address.
 
-As the IP configuration is already stored with you when you intiated the connection before, you can directly run the following command:
+As the IP configuration was already stored with you when you intiated the connection, you can directly run the following command:
 
 .. code-block:: bash
 
@@ -216,7 +216,7 @@ OR
 
 .. note::
 
-    Please do not use the address specified above, this address is only avaialble for the demo purpose.
+    Please do not use the address specified above. This address is only available for the demo purpose.
 
 
 .. _linux-stoprk:
@@ -226,7 +226,7 @@ Stopping RecordsKeeper Blockchain
 
 **RecordsKeeper Mainnet**
 
-    In case you want to stop your running Recordskeeper node then you can use the following command from your command line terminal:
+    In case you want to stop your running RecordsKeeper node, you can use the following command from your command line terminal:
 
 
     .. code-block:: bash
@@ -236,7 +236,7 @@ Stopping RecordsKeeper Blockchain
 
 **RecordsKeeper Testnet**
 
-    In case you want to stop your running Recordskeeper-test Blockchain node then you can use the following command from your command line terminal:
+    In case you want to stop your RecordsKeeper-test blockchain node, you can use the following command from your command line terminal:
 
 
     .. code-block:: bash

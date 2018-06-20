@@ -7,9 +7,9 @@ RecordsKeeper
 
 | 
 
-RecordsKeeper Blockchain-centric solution is built to store, share and manage your information in the safest fashion. Once your data is over the RecordsKeeper Blockchain, it cannot be deleted, tampered or modified even by the data owner. RecordsKeeper offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. There are several use cases for RecordsKeeper ranging from KYC verifications, Supplychain, Manufacturing, Health Record Management, Academic Certifications, Employment Credentials, etc.
+RecordsKeeper's blockchain-centric solution is built to store, share, and manage your information in the safest fashion. Once your data is on the RecordsKeeper blockchain, it cannot be deleted, tampered with, or modified even by the data owner. RecordsKeeper offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets, and data streams. There are several use cases for RecordsKeeper ranging from KYC verifications, supply chain management, manufacturing, health record management, academic certifications, and employment credentials verification.
 
-The ecosystem for RecordsKeeper includes different layers which provide the building blocks for RecordsKeeper Blockchain. The different layers as shown in the diagram below interact with each other to form the open public minable database over the blockchain.
+The ecosystem for RecordsKeeper includes different layers which provide the building blocks for the RecordsKeeper blockchain. The different layers, as shown in the diagram below, interact with each other to form the public, minable database on the blockchain.
 
 | 
 
@@ -19,13 +19,14 @@ The ecosystem for RecordsKeeper includes different layers which provide the buil
 | 
 
 
-RecordsKeeper was founded by Toshendra Sharma & Rohendra Singh on November 2016 and includes a team of Developers, Blockchain and Marketing veterans who share a passion for Blockchain technology and believe in collective shared information and data. RecordsKeeper is based in Singapore with offices in India. The team at RecordsKeeper has created an open source immutable public Database over Blockchain technology which can be utilized by millions of users to store and share data, and today a new block of data is being created every 15 seconds. 
+RecordsKeeper was founded by Toshendra Sharma and Rohendra Singh in November 2016 and includes a team of blockchain developers, and marketing veterans who share a passion for blockchain technology and believe in collective shared information and data. RecordsKeeper is based in Singapore with offices in India. The team at RecordsKeeper has created an open-source, immutable, public database using blockchain technology which is available to millions of users to store and share data, and currently a new block of data is being created every 15 seconds. 
 
 
 .. note::
-   The best way to get familiar with RecordsKeeper is to try the `Demo <https://demo.recordskeeper.co/>`_ . The Demo allows you to create a new wallet and store data in the RecordsKeeper Public Blockchain. It also allows you to retrive the data and verify it.
+    The best way to get familiar with RecordsKeeper is to try the `Demo <https://demo.recordskeeper.co/>`_ . The Demo allows you to create a new wallet and store data on the RecordsKeeper blockchain. It also allows you to retrieve the data and verify it.
 
-Users/Organizations can create there own private node which can act as building blocks for their applications. The standard JSON RPC APIs provided with RecordsKeeper helps in seamless integration of applications with the RecordsKeeper Blockchain which get synchronised with Public RecordsKeeper Node and data can be viewed and verified by the parties involved or shared globally. Check the diagram below to see How RecordsKeeper Blockchain works:
+
+Individual users and organizations can create their own private nodes which can act as building blocks for their applications. The standard JSON RPC APIs provided with RecordsKeeper provide seamless integration of applications with the RecordsKeeper blockchain. These applications are synchronised with a RecordsKeeper node, and data can then be viewed and verified by the parties involved or shared globally. Check the diagram below to see how RecordsKeeper blockchain works:
 
 | 
 
@@ -51,9 +52,9 @@ Language Documentation
 
 On the next pages, we will see how to use RecordsKeeper to store data followed by the basics about RecordsKeeper mining and how to set up your network.
 
-The next section will explain several features of RecordsKeeper. You can implement and deploy your own solutions over the RecordsKeeper.
+The next section will explain several features of RecordsKeeper. You can implement and deploy your own solutions on the RecordsKeeper blockchain.
 
-The last section will cover important aspects and Use Cases of RecordsKeeper in depth.
+The last section will cover important aspects and use cases of RecordsKeeper in depth.
 
 If you still have questions, you can try searching or asking on the RecordsKeeper FAQ, or come to our `Telegram <https://t.me/joinchat/B4T_PxInGAjiXLz1N66t3Q>`_ channel. Ideas for improving RecordsKeeper or this documentation are always welcome!
 

@@ -6,7 +6,7 @@ Installing the RecordsKeeper Node
 Versioning
 ----------
 
-RecordsKeeper Nodes follow semantic versioning and in addition to releases, development builds are also made available through source code. The development builds are not guaranteed to be working and despite best efforts they might contain undocumented and/or broken changes. We recommend using the latest release. Package installers below will use the latest release.
+RecordsKeeper nodes follow semantic versioning, and in addition to releases development builds are made available through source code. The development builds are not guaranteed to be working and despite our best efforts they might contain undocumented and/or broken changes. We recommend using the latest release. Package installers below will use the latest release.
 
 Linux Pre-Installation Requirements (on Ubuntu 14.04 x64)
 ---------------------------------------------------------
@@ -39,7 +39,7 @@ To clone the source code, execute the following command:
     git clone https://github.com/RecordsKeeper/recordskeeper-core.git
     cd recordskeeper-core
 
-Compile Recordskeeper for Ubuntu (64-bit)
+Compile RecordsKeeper for Ubuntu (64-bit)
 =========================================
 
 This will build rkd, rk-cli and rk-util in the src directory.
@@ -55,7 +55,7 @@ Windows Pre-Installation Requirements (on Ubuntu 14.04 x64)
 Install dependencies on your operating system.
 
 .. note::
-   You need to install apt-get or any other package manager to install the dependent libraries.
+   You need to install apt-get or other package manager to install the dependent libraries.
 
 .. code-block:: bash
 
@@ -81,7 +81,7 @@ To clone the source code, execute the following command:
     git clone https://github.com/RecordsKeeper/recordskeeper-core.git
     cd recordskeeper-core
 
-Compile Recordskeeper for Windows (64-bit)
+Compile RecordsKeeper for Windows (64-bit)
 ==========================================
 
 This will build rkd, rk-cli and rk-util in the src directory.
@@ -108,12 +108,12 @@ Install dependencies on your operating system.
     brew install autoconf automake berkeley-db4 libtool boost@1.57 openssl pkg-config rename
     brew link boost@1.57 --force
 
-Prepare for static linking
+Prepare for Static Linking
 ##########################
 
-Apple does not support statically linked binaries as documented here, however, it is convenient for end-users to launch a binary without having to first install brew, a third-party system designed for developers.
+Apple does not support statically linked binaries as documented here. However, it is convenient for end-users to launch a binary without having to first install brew, a third-party system designed for developers.
 
-To create a statically linked Recordskeeper Blockchain which only depends on default MacOS dylibs, the following steps are taken:
+To create a statically linked RecordsKeeper blockchain which only depends on default MacOS dylibs, the following steps are taken:
 
     * Hide the brew boost dylibs from the build system: rename -e 's/.dylib/.dylib.hidden/' /usr/local/opt/boost/lib/*.dylib
 
@@ -138,7 +138,7 @@ To clone the source code, execute the following command:
     git clone https://github.com/RecordsKeeper/recordskeeper-core.git
     cd recordskeeper-core
 
-Compile Recordskeeper for Mac (64-bit)
+Compile RecordsKeeper for Mac (64-bit)
 ======================================
 This will build rkd, rk-cli and rk-util in the src directory.
 

@@ -20,17 +20,18 @@ The following use-cases are provided for business and individual needs:
 Enterprise KYC
 --------------
 
-**Storing and Verifying Enterprise KYC/Governement IDs over RecordsKeeper Blockchain**
+**Storing and Verifying Enterprise KYC/Government IDs on the RecordsKeeper blockchain**
 
-KYC procedures and Compliance have become increasingly important in the banking industry as regulators are keeping track of banks by noting down with whom they are doing business. It is done to avoid potential money laundering or terrorist financing. Currently, institutions offering financial or professional services are obliged to follow time-consuming and expensive practices for each new customer. These KYC processes can delay business as it can take up to 30 to 50 days to complete satisfactorily. Some estimates showed that global spending on AML compliance alone is close to $10 billion. Banks are also coming under pressure from various investors and analysts to reduce cost, but many expect that the compliance budgets to increase in the coming years rather than to decrease.
+KYC procedures and compliance have become increasingly important in the banking industry as regulators are keeping track of banks by noting down with whom they are doing business. This is done to prevent potential money laundering or terrorist financing. Currently, institutions offering financial or professional services are obliged to follow time-consuming and expensive practices for each new customer. These KYC processes can delay business as it can take between 30 to 50 days to complete satisfactorily. Some estimates show that global spending on AML compliance alone is close to $10 billion. Banks are also coming under pressure from various investors and analysts to reduce costs, but many expect the compliance budgets to increase in the coming years rather than decrease.
+
 
 .. image:: _static/KYC.png
 		:align: center
 		:width: 693.433px
 
-The adoption of Blockchain technology could lead to the reduction of AML and KYC costs thanks to its cross-institution client verification capability, as well as its effectiveness in monitoring and analyzing data required for AML and KYC checks. Recordskeeper solves this use case entirely, without the need to maintain physical documents. The authenticity of these documents can be easily verified because of the nature of the Blockchain. Recordskeeper streams can keep records of various identification cards, which can be shared and validated when required by any enterprise unit or the government agencies.
+The adoption of blockchain technology could lead to the reduction of AML and KYC costs, thanks to its cross-institution client verification capability, as well as its effectiveness in monitoring and analyzing data required for AML and KYC checks. RecordsKeeper performs this use case flawlessly, without the need to maintain physical documents. The authenticity of these documents can be easily verified because of the nature of the blockchain. RecordsKeeper streams can maintain records of various identification cards, which can be shared and verified when required by any enterprise unit or government agency.
 
-With Recordskeeper Blockchain, the verification of a client or the legality of a transaction could take place just once, with the final result cryptographically stored in the Recordskeeper Blockchain. Organizations such as banks or administration services providers would be able to get rid of the multistep AML and KYC processes. More specifically, all of the information related to a client would become available to organizations with the appropriate permissions via a distributed database that would be considered a single source of “truth.” So, when some bank has verified a new client, then they can put the client’s data on Recordskeeper Blockchain which can then also be accessed by other banks and accredited organizations, like loan providers and insurance companies, without the need for the KYC process to be started all over again by another party. These parties would know that the client’s information has been independently audited and verified by various miners so that no more KYC checks are necessary.
+On the RecordsKeeper blockchain, the verification of a client or the legality of a transaction can be determined just once, with the final result cryptographically stored on the RecordsKeeper blockchain. Organizations such as banks or administration services providers would be able to get rid of the multistep AML and KYC processes. More specifically, all of the information related to a client would become available to organizations with the appropriate permissions via a distributed database that would be considered a single source of “truth.” So, when a bank has verified a new client, they can then put the client’s data on RecordsKeeper blockchain which can then also be accessed by other banks and accredited organizations, such as loan providers and insurance companies, without the need for the KYC process to be repeated by another party. These parties would know that the client’s information has been independently audited and verified by various independent miners so that no more KYC checks would be necessary.
 
 .. _insurance-records:
 
@@ -43,33 +44,35 @@ Insurance Records Keeping
 		:align: center
 		:width: 693.433px
 
-This use case addresses improvements in the operational functions of an insurance company. It also helps in improving their dealings with intermediaries, providers, and policy holders resulting in an excellent customer experience, enhanced product value, and also helps in laying the groundwork for greater customer choice in the market. The overall motive behind this is to improve operational effectiveness, decrease costs, and further strengthen the relationships with the insured. The following can be achieved with a structured storage:
+This use case addresses improvements in the operational functions of an insurance company. As per the traditional procedure is shown in the image, when a user makes a general insurance claim, all the insurance information gets verified from the insurance stream manually. If the information is correct, the insurance claim is verified by the insurance company. However, this procedure has the following problems:
 
-1. Moving towards interoperable, comprehensive records The added security and ability to establish trust between entities are the basic two reasons why Recordskeeper can help in solving the interoperability problem better than today’s existing technologies.
+1. Data Security
+2. Fraudulent information
+3. Trust issues
 
-2. Detecting fraud more effectively When fraudulent information is submitted to insurer through false claims, by falsified applications, or through other channels, Recordskeeper can help in determining whether the submission is indeed valid or not.
+RecordsKeeper can remove all of these problems. RecordsKeeper is a public blockchain for records keeping and data security. Let’s discuss each problem individually:
 
-3. Improving provider directory accuracy The technology’s decentralized consensus can be leveraged by the unique provider directories to allow providers and insurers for easy and quick update listings
+1. **Data Security**: Data stored in RecordsKeeper is decentralized so there is considerably less possibility of data loss as compared to the present centralized system because a copy of the data is present in every node which is connected to the network. This way, the data can be quickly recovered in the event of data loss.
 
-4. Simplifying the application process by making it more client-centric Providing an easier-to-access, more comprehensive set of insurance records on a Blockchain can help in infusing comfort and peace of mind into what, for many, which is now an intrusive and often discouraging application process.
+2. **Fraudulent information**: Unlike with the traditional insurance record keeping system, data stored on the RecordsKeeper blockchain cannot be tampered with or modified. Moreover, insurance companies can easily identify false applications, so there is less chance of fraud.
 
-5. Facilitating a dynamic insurer/client relationship Electronic records securely stored on a Blockchain could be the foundation for integrating a wide variety of wellness-related behaviors into the insurer/client dynamic.
+3. **Trust issues**: For every insurance company, it is imperative to gain the client’s trust. In the traditional process, there are many chances for fraud, so it is not easy for a client to trust the insurance company, but with the help of RecordsKeeper blockchain, trust issues can be resolved.
 
 .. _corporate-compliances:
 
 Corporate Compliances Records Keeping
-------------------------------------
+-------------------------------------
 
 **Using RecordsKeeper Blockchain to store Corporate Compliances**
 
-One of the most tempting features of Blockchain from the compliance perspective is its practical immutability. As soon as data is saved onto the chain, it cannot be modified or removed. This is one of the major feature making Blockchain used as the document or proof for the transfer of any digital asset.
+One of the most admired features of blockchain technology, from a compliance perspective, is its practical immutability. As soon as data is saved onto the chain, it cannot be modified or removed. This is one of the major features enabling blockchain to be used for the transfer of any digital asset.
 
 .. image:: _static/Compliance.png
 		:align: center
 		:width: 693.433px
 
 
-Recordskeeper tends to apprehend pain points for financial institutions and regulators. Saving one shared permanent record on the Blockchain will reduce the need for duplicacy, thus elevating the need for both financial firms and regulators, ultimately which can turn up as tremendous cost saving for the entire industry. It would also expedite the regulatory review process since there would no longer be a need for reconciliation. A business unit can monitor regulatory feeds and update their records based on regulations in the Recordskeeper Blockchain. Each compliance document is either acknowledged or dismissed based on the regulations. Every approved document is stored in the Recordskeeper Ledger and can be shared and verified when required.
+RecordsKeeper avoids pain points for financial institutions and regulators. Saving one shared permanent record on the blockchain reduces the need for duplication, which can represent tremendous savings for the entire industry. It would also expedite the regulatory review process since there would no longer be a need for reconciliation. A business unit can monitor regulatory feeds and update their records based on regulations in the RecordsKeeper blockchain. Each compliance document is either acknowledged or dismissed based on the regulations. Every approved document is stored in the RecordsKeeper ledger and can be shared and verified as required.
 
 .. _academic-certifications:
 
@@ -82,41 +85,42 @@ Verify Academic Certifications
 		:align: center
 		:width: 693.433px
 
-Academic certificates can be easily issued and verified using Recordskeeper Ledger. The educational authorities issue a certificate and give the user a receipt which they can share with any third party to prove the authenticity of the certificate. When the third party receives this receipt, they can easily check it’s authenticity on the Recordskeeper ledger.
+Academic certificates can be easily issued and verified using the RecordsKeeper ledger. Educational authorities can issue a certificate and give the user a receipt which they can share with any third party to prove the authenticity of the certificate. When the third party receives this receipt, they can easily check its authenticity on the RecordsKeeper ledger.
 
-Additionally, RecordsKeeper adds following features in this medium in the following ways:
+Additionally, RecordsKeeper provides the following features:
 
-**Transparency** – Both the parties who are interested in viewing academic credentials can see it on the RecordsKeeper blockchain. This ensures that only people with ownership rights can make decisions about who has access this information.
-		
-**Immutability** – Blockchains are the most secure source for storing the information right now. They rely on the integrity of the network to ensure the authenticity of the stored information. So, the Academics certificates stored on the RecordsKeeper blockchain are immutable.
+**Transparency** – Both the parties who are interested in viewing academic credentials can see them on the RecordsKeeper blockchain. This ensures that only people with ownership rights can make decisions about who has access to this information.
 
-**Disintermediation** – Using Recordskeeper blockchain to store and share academic credentials helps us bypass the need for a central controlling authority that manages and keeps records. This makes the overall process of storing credentials more trustworthy as there are no middlemen involved.
-		
-**Collaboration** – Once the information becomes available on the RecordsKeeper blockchain, it is much easier to ascribe ownership and therefore, safer to share the information without the fear of this information getting compromised.
+**Immutability** – Blockchains are the most secure source for storing the information right now. They rely on the integrity of the network to ensure the authenticity of the stored information. Thus, academic certificates stored on the RecordsKeeper blockchain are immutable.
+
+**Disintermediation** – Using the RecordsKeeper blockchain to store and share academic credentials helps us bypass the need for a central controlling authority that manages and keeps records. This makes the overall process of storing credentials more trustworthy as there are no middlemen involved.
+
+**Collaboration** – Once the information becomes available on the RecordsKeeper blockchain, it is much easier to ascribe ownership, and therefore safer to share the information without the fear of this information being compromised.
 
 .. _supply-chain:
 
 Supply Chain Management
 -----------------------
 
-**Supply Chain Management over RecordsKeeper Blockchain**
+**Supply Chain Management over the RecordsKeeper Blockchain**
 
 .. image:: _static/Supply-Chain-Management.png
 		:align: center
 		:width: 693.433px
 
-Recordskeeper can help improve the supply chain management in following ways:
+RecordsKeeper can help improve the supply chain management in the following ways:
 
-Recording the quantity and transfer of assets – like pallets, trailers, containers, etc. – as they move between supply chain nodes
-Tracking purchase orders, change orders, receipts, shipment notifications, or other trade-related documents
-Assigning or verifying certifications or certain properties of physical products; for example determining if a food product is organic or fair trade
-Linking physical goods to serial numbers, barcodes, digital tags like RFID, etc.
-Sharing information about manufacturing process, assembly, delivery, and maintenance of products with suppliers and vendors.
-Each unit has a set of compliance which needs to be followed. Recordskeeper, can make sure that compliances are being followed, throughout the process. At each unit, the current status of the supply and it’s related compliance is approved and recorded in the ledger by the concerned unit, thus helping in maintaining transparency among all units. The Recordskeeper will maintain copies of receipts, orders or notification etc and will make sure that their integrity is maintained. RecordsKeeper helps you set the rules for recording the data thus you can set the compliance conditions and only when the conditions are meet, RecordsKeeper will allow the user to share the data.
+- Recording the quantity and transfer of assets – such as pallets, trailers, or containers, etc. – as they move between supply chain nodes
+- Tracking purchase orders, change orders, receipts, shipment notifications, or other trade-related documents
+- Assigning or verifying certifications or certain properties of physical products; for example, determining if a food product is organic or fair trade
+- Linking physical goods to serial numbers, barcodes, digital tags such as RFID, etc.
+- Sharing information about the manufacturing process, assembly, delivery, and maintenance of products with suppliers and vendors.
+
+Each unit has a set of compliance conditions which need to be followed. RecordsKeeper can make sure that these are being followed, throughout the process. For each unit, the current status of the supply and its related compliance is approved and recorded in the ledger by the unit itself, thus helping to maintain transparency among all units. RecordsKeeper will store copies of receipts, orders, or notifications, etc. and will make sure that their integrity is maintained. RecordsKeeper helps businesses set the rules for recording the data so that they can set the compliance conditions themselves. Only when the conditions are met does RecordsKeeper allow the user to share the data.
 
 .. _file-sharing:
 
-Trutless File Sharing
+Trustless File Sharing
 ----------------------
 
 **Trustless File Storing and Sharing over RecordsKeeper Blockchain**
@@ -125,72 +129,71 @@ Trutless File Sharing
 		:align: center
 		:width: 693.433px
 
-Data sharing has always been prone to attacks, hackers are always present in a search for ways to hack any data through means of channel diversion or accessing the encrypted transferred data. RecordsKeeper can be used for creating a system which will help in sharing data over the network securely. This system will encrypt the file with receiver’s public key before sharing. Once the receiver receives the file, they can decrypt it using their private keys. At each stage, the Recordskeeper will maintain the metadata of the file and keep track of all the changes made in it. Thus, both the parties can verify if a document has been manipulated or not.
+Data sharing has always been prone to attacks, hackers are always present in a search for ways to hack any data by means of channel diversion or accessing the encrypted transferred data. RecordsKeeper can be used for creating a system which will help in sharing data over the network securely. This system will encrypt the file with receiver’s public key before sharing. Once the receiver receives the file, they can decrypt it using their private keys. At each stage, the Recordskeeper will maintain the metadata of the file and keep track of all the changes made in it. Thus, both the parties can verify if a document has been manipulated or not.
 
-The primary benefit of using RecordsKeeper blockchain for File sharing is the safety of the data. Information present on RecordsKeeper blockchain is immutable and unalterable which makes it safe and secure. In case of the RecorsKeeper blockchain, if a user uploaded the file then the hash of the file gets stored in the blockchain and then the user can verify the authenticity of the file by using the hash and claim the ownership.
+The primary benefit of using RecordsKeeper Blockchain for file sharing is the safety of the data. Information present on RecordsKeeper Blockchain is immutable and unalterable which makes it safe and secure. In case of the RecordsKeeper Blockchain, if a user uploads a file then the hash of the file gets stored in the Blockchain and then the user can verify the authenticity of the file by using the hash and claim the ownership.
 
 .. _gov-regulations:
 
 Government Regulations
 ----------------------
 
-**Government Regulation Polices over RecordsKeeper Blockchain**
+**Government Regulation Policies on the RecordsKeeper Blockchain**
 
 .. image:: _static/Government-Licences--ID-Verification.png
 		:align: center
 		:width: 693.433px
 
-Identification documents or licenses verification is a tedious but mandatory job for all citizens. These documents can easily be faked, which has a direct impact on a number of government agendas, for example, governments are not able to implement health or food policies efficiently due to incorrect data recorded. Recordskeeper can effectively be used as a solution for this problem, records with proper and unalterable information can be saved over the RecordsKeeper Ledger which can be easily accessed when required.
+Identification documents are a tedious but necessary responsibility for all citizens. These documents can be easily faked, which has a direct impact on many government agendas; for example, governments are often not able to implement health or food policies efficiently due to partial or misleading information. RecordsKeeper can be effectively used as a solution to this problem; records with proper and unalterable information can be saved in the RecordsKeeper ledger, which can be easily accessed when required.
 
-This information is safe with Recordskeeper as the digest of the document is saved in the Ledger which when altered, gets completely changed making the verification process effortless. Recordskeeper platform aims to significantly reduce the time and resources spent on cross verification of the identification documents. Once the data gets stored in the RecordsKeeper blockchain by the document hash user can claim ownership on the file. By this mechanism, the chances of generating the fake documents get reduced. So, with the help of RecordsKeeper we can increase the authenticity of government identification documents.
+This information is safe with RecordsKeeper as the details of the document are saved in the ledger, making the verification process effortless. The RecordsKeeper platform aims to significantly reduce the amount of time and resources spent on cross verification of identification documents. Once the data is stored on the RecordsKeeper blockchain with the document hash, users can claim ownership of the files. By this mechanism, the risk of fake document creation is significantly reduced. Thus, with the help of RecordsKeeper, we can increase the authenticity of government identification documents.
 
 .. _land-ownership:
 
 Land Ownership Record Keeping
 -----------------------------
 
-**Land Ownership verification over RecordsKeeper Blockchain**
+**Land Ownership verification on the RecordsKeeper Blockchain**
 
 .. image:: _static/Land.png
 		:align: center
 		:width: 693.433px
 
-For any high-value property (real estate, cars, art) it is important to have accurate records which could identify the owner. These records are used to protect owners’ rights, i.e., in case of theft, helps in resolving disputes, makes sure of whether ownership is correctly transferred to a new owner after the sale and helps in preventing sale fraud. Thus, it is necessary to maintain correctness, as well as completeness of this information to avoid unauthorized and fraudulent changes.
+For any high-value property (such as real estate, cars, or artwork) it is essential to have accurate records which can identify the owner. These records are used to protect owners’ rights in various situations: for example, in the case of theft, in resolving disputes, or in the transfer of ownership after a sale. Thus, it is necessary to maintain not only the accuracy but also the completeness of this information to prevent unauthorized and fraudulent actions.
 
-Currently, people have to rely on a trusted third party. E.g., a government agency might be responsible for keeping track of ownership information. Sometimes, these records are not preserved in a systematic way.Recordskeeper solves this problem completely, as it provides a complete way of sanctioning, approving and saving all sorts of asset information which can never be falsified or altered.
+Currently, people have to rely on a trusted third party. For example, a government agency might be responsible for keeping track of ownership information. Sometimes, these records are not preserved systematically. RecordsKeeper solves this problem entirely, as it provides a way of sanctioning, approving, and saving all sorts of asset information which can never be falsified or altered.
 
-The current process for clearing a land deed is very complex and requires house buyers to hire a middleman to clear the land deed for them. This is a complete waste of resources, both human and monetary, to accomplish something that can easily be done with the help of a public blockchain i.e. RecordsKeeper. In addition to making the process a whole lot more efficient, registering land deeds on a public blockchain also ensures that owner information cannot be manipulated in any way, adding another layer of security for the homeowners.
+The current process for clearing a land deed is very complicated and requires house buyers to hire an intermediary to clear the land deed for them. This is a complete waste of resources, both human and monetary, to accomplish something that can easily be done with the help of a public blockchain such as RecordsKeeper’s. In addition to making the process a whole lot more efficient, registering land deeds on a public blockchain also ensures that owner information cannot be manipulated in any way, adding another layer of security for homeowners.
 
 .. _employee-verification:
 
 Employee Verification
 ---------------------
 
-**Employee Credential Verification over RecordsKeeper Blockchain**
+**Employee Credential Verification on the RecordsKeeper Blockchain**
 
 .. image:: _static/Employee-Verification.png
 		:align: center
 		:width: 693.433px
 
-Employers face a major hurdle in hiring employees when they require verifying candidates credentials. A survey made by one of the largest online job finder sites, CareerBuilder, states that a staggering 58 percent of employers have caught a lie on the resume of individuals. A separate report on the 2015 hiring outlook done by HireRight, a company majorly offering global background checks, employment verification services, and drug testing show that screening uncovered lies or misrepresentations on a resume is required for 86% of employers. There is no doubt that resume accuracy is a common problem in the current environment and the effort required to verify credentials, impacts on the hiring process and costs employers, time and money. This is where Recordskeeper will increase transparency and address frauds in employee credentials.
+Employers face a major hurdle in hiring employees when they require verification of candidates’ credentials. A survey conducted by one of the largest online job finder sites, CareerBuilder, found that a staggering 58% of employers have found fraudulent details on the resumes of individuals. A separate report on the 2015 hiring outlook done by HireRight, a company offering global background checks, employment verification services, and drug testing shows that screening of misrepresented resumes is required for 86% of employers. There is no doubt that resume accuracy is a common problem in the current environment and the effort required to verify credentials impacts the hiring process and costs employers time and money. This is where RecordsKeeper will increase transparency and address fraud in employee credentials.
 
-RecordsKeeper helps employers in identifying the employee, with details like the source of funds, business interests, and the employer history. They also monitor the progress along the way. Every employer has to perform the KYC process individually and upload the validated information and documents to the RecordsKeeper that stores digitized data tagged to a unique identification number for each customer. By using this reference number, the employer can access the stored data to perform due diligence whenever employee apply for a new job to verify the information of the employee is valid or invalid.
+RecordsKeeper helps employers in verifying employee details, by allowing for the inspection of the source of their funds, business interests, and employment history. They can also monitor the verification progress along the way. Every employer has to perform the KYC process individually and upload the validated information and documents to RecordsKeeper where it is stored as digitized data and tagged with a unique identification number for each customer. By using this reference number, the employer can access the stored data to perform due diligence whenever employees apply for a new job.
 
 .. _health-records:
 
 Health Record Manifest In Judiciary
 -----------------------------------
 
-**Health Record Manifest reuirements for Judiciary over RecordsKeeper Blockchain**
+**Health Record Manifest requirements for Judiciary on the RecordsKeeper Blockchain**
 
 .. image:: _static/Medical-Records-Management.png
 		:align: center
 		:width: 693.433px
 
-In today’s digital society, everyone is concerned about the privacy and security of personal data, especially in health care. So we need higher transparency in medical information, patients privacy and reducing possible security breaches. People nowadays are faking their health status and problems in claiming health insurance while some also fake medical cases to claim fraudulent money. These cases when taken to the court, turns into complications due to lack of judicial system assertions. Recordskeeper enables the sharing of information on a secure, tamper-proof and indelible platform. Nothing can be tempered or fraudulently conveyed over the Recordskeeper Ledger. Once the record is saved, it is easily verifiable, stays in the system and easily accessible.
+In today’s digital society, everyone is concerned about the privacy and security of their data, especially in health care. So we need more transparency in medical information to protect patients’ privacy and reduce possible security breaches. People nowadays are faking their health status and problems to claim health insurance while some also fake medical cases to claim fraudulent benefits. These cases, when taken to court, become complicated due to the lack of judicial system assertions. RecordsKeeper enables the sharing of information on a secure, tamper-proof, and immutable platform. Nothing can be tampered with or fraudulently conveyed in the RecordsKeeper ledger. Once the record is saved, it is easily verifiable, stays in the system, and is easily accessible.
 
-By using RecordsKeeper blockchain Hospitals can store the patient’s data and it will remain immutable by this data Doctor’s can completely track the patient’s progress. Also, there is another significant advantage, if you go to the vacation in Switzerland then the Doctors of Switzerland can track your data from the New York’s hospital and can provide you better treatment because the data is immutable and present on the distributed public ledger. So, we can say that with the help of RecordsKeeper we can completely revolutionize the health industry.
-
+By using the RecordsKeeper blockchain hospitals can store a patient’s data, and it will remain immutable. Doctors can completely track a patient’s progress. Also, there is another significant advantage: if a New Yorker has a medical emergency on vacation in Switzerland, for example, then the Swiss doctors can track her data from a New York hospital and can provide better treatment because the data is immutable and present on the distributed public ledger. So, we believe that with the help of RecordsKeeper, we can completely revolutionize the health industry.
 
 
 

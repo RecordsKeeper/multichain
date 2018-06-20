@@ -1,8 +1,8 @@
 ====================================================
-Mining Guide for Recordskeeper Blockchain on Windows
+Mining Guide for RecordsKeeper Blockchain on Windows
 ====================================================
 
-The following document helps the users to intiate mining for RecordsKeeper Blockchain over Windows Operating system. All the commands and process displayed in this document is tested and created over Windows 7 and above Operating Systems. The detailed overview to start mining for RecordsKeeper Blockchain is as follows:
+The following document helps the users to initiate mining the RecordsKeeper blockchain using a Windows Operating system. All the commands and processes displayed in this document have been tested and created using Windows 7 and above operating systems. A detailed overview to start mining the RecordsKeeper blockchain is as follows:
 
 * :ref:`windows-systemrequirements`
 * :ref:`windows-installingrk`
@@ -13,7 +13,7 @@ The following document helps the users to intiate mining for RecordsKeeper Block
 
 .. _windows-systemrequirements:
 
-System requirements
+System Requirements
 -------------------
 
 * Windows: 64-bit, supports Windows 7, 8, 10, Server 2008 or later.
@@ -22,14 +22,14 @@ System requirements
 
 .. _windows-installingrk:
 
-Installing Recordskeeper on Windows
+Installing RecordsKeeper on Windows
 -----------------------------------
 
-Download the executables from `here <https://github.com/RecordsKeeper/recordskeeper-core/releases/download/v1.0.0/recordskeeper-windows-1.0.0.zip>`_ and then unzip it and you will have the binary files: rkd.exe, rkd-cold.exe, rk-cli.exe and rk-util.exe.
+Download the executables from `here <https://github.com/RecordsKeeper/recordskeeper-core/releases/download/v1.0.0/recordskeeper-windows-1.0.0.zip>`_ and then unzip the folder and you will have the binary files: rkd.exe, rkd-cold.exe, rk-cli.exe and rk-util.exe.
 
 Copy the folder to your desired location.
 
-Then open your command line terminal and go to that location, after that run the following command:
+Then, open your command line terminal and go to that location. After that run the following command:
 
 .. code-block:: bash
     
@@ -43,9 +43,9 @@ Then open your command line terminal and go to that location, after that run the
 Connecting to RecordsKeeper Blockchain on Windows
 -------------------------------------------------
 
-The RecordsKeeper Testnet Blockchain is avaialble for the users to Develop and Deploy applications over RecordsKeeper Blockchain, XRK Testnet tokens do not hold any value and are only avaialble for testing. You can earn XRK tokens from RecordsKeeper Mainnet mining.
+The RecordsKeeper Testnet blockchain is avaialble for users to develop and deploy applications on the RecordsKeeper blockchain. XRK Testnet tokens do not hold any value and are only available for testing. You can earn XRK tokens from RecordsKeeper Mainnet mining.
 
-Now to connect to the RecordsKeeper Blockchain, first go into the directory where you have downloaded “recordskeeper-windows-1.0.0.zip” and then open command line terminal from that location:
+Now, to connect to the RecordsKeeper blockchain, first go into the directory where you have downloaded “recordskeeper-windows-1.0.0.zip” and then open the command line terminal from that location:
 
 **RecordsKeeper Testnet**
 
@@ -62,7 +62,7 @@ Now to connect to the RecordsKeeper Blockchain, first go into the directory wher
 
 This command will initialize your node.
 
-And, if you want your connection to remain active as a background process then run this command:
+And, if you want your connection to remain active as a background process, then run this command:
 
 **RecordsKeeper Testnet**
 
@@ -76,13 +76,13 @@ And, if you want your connection to remain active as a background process then r
 
     rkd recordskeeper@35.172.1.247:7895 -daemon
 
-If the Operating system does not pop up the allow firewall connections for rkd like shown below:
+If the operating system does not pop up the allow firewall connections for rkd like shown below:
 
 .. image:: _static/AllowFirewall.png
    :align: center
    :width: 693.433px
 
-Then you have to manually allow connections through firewall by following the steps below:
+Then, you have to manually allow connections through your firewall by following the steps below:
 
 Go to:
 
@@ -90,14 +90,14 @@ Go to:
 
     Control Panel > System and Security > Windows Defender Firewall > Advanced Settings
 
-And add Outbound rules by following these steps:
+And add Outbound Rules by following these steps:
 
-**Step 1:** First select the Rule type, as you have to create a rule for allowing the network port so select Port here and then press Next:
+**Step 1:** First select the rule type. As you have to create a rule for allowing the network port, select Port here and then press Next:
 
 .. image:: _static/Step1Outbound.png
    :align: center
 
-**Step 2:** Specify the port address of the RecordsKeeper Blockchain to which you are allowing access, for Testnet type 8379 and to open ports for Mainnet type 7895 in the textbox and then click on Next:
+**Step 2:** Specify the port address of the RecordsKeeper blockchain to which you are allowing access, for Testnet type 8379 and to open ports for Mainnet type 7895 in the textbox, and then click on Next:
 
 .. image:: _static/Step2Outbound.png
    :align: center
@@ -118,7 +118,7 @@ And add Outbound rules by following these steps:
    :align: center
 
 .. note::
-    If you want some other RecordsKeeper node to connect to your node then you have to allow connections by making Inbound rules for the same. Follow the same procedure after selecting a new Inbound rule.
+    If you want another RecordsKeeper node to connect to your node then you have to allow connections by making Inbound rules for the same. Follow the same procedure after selecting a new Inbound rule.
 
 .. note::
     Windows users now can go to the :ref:`mining-permissions` section.
@@ -131,7 +131,7 @@ Mining Permissions
 Running RecordsKeeper on Windows
 ################################
 
-You will see the following message on your Windows command line terminal after you execute the command to connect to the Recordskeeper blockchain.
+You will see the following message on your Windows command line terminal after you execute the command to connect to the RecordsKeeper blockchain.
 
 .. image:: _static/WindowsRKD.png
    :align: center
@@ -145,24 +145,24 @@ RecordsKeeper Permissions
 
 **RecordsKeeper Testnet**
 
-The mining for RecordsKeeper Testnet is open for everyone so when you connect to RecordsKeeper Testnet, you will receive all the permissions for your default address
+The mining for RecordsKeeper Testnet is open to everyone, so when you connect to RecordsKeeper Testnet, you will receive all the permissions for your default address
 
 **RecordsKeeper Mainnet**
 
-For Mainnet when your node gets connected, you will receive the permissions to connect, send and receive. Now look for your default XRK address from the command given below, which will display your node’s wallet address. This address is your “default XRK address” or “public address” of the Recordskeeper Blockchain in which you will receive XRK coins. To check the address, run the following command:
+For Mainnet, when your node gets connected, you will receive the permissions to connect, send, and receive. Now look for your default XRK address from the command given below, which will display your node’s wallet address. This address is your “default XRK address” or “public address” of the RecordsKeeper blockchain in which you will receive XRK tokens. To check the address, run the following command:
 
 .. code-block:: bash
 
     rk-cli recordskeeper getaddresses
 
-**Submit the following to recieve Mining Permissions for RecordsKeeper Mainnet.**
+**Submit the following to receive Mining Permissions for RecordsKeeper Mainnet.**
 
 .. note::
     Copy the above generated address and send it to us `here <https://docs.google.com/forms/d/e/1FAIpQLSd1Dd2GAggCyom23HgiBhnQIjlLjMgRwf_UOQrHp9BUTRPEYA/viewform>`_ .
 
-After RecordsKeeper team grant mining permissions to your node address, only after that you would be able to mine XRK coins into your default address.
+Only after the RecordsKeeper team grants mining permissions to your node address will you be able to mine XRK tokens into your default address.
 
-To retrieve private key for your node address run this command:
+To retrieve the private key for your node address, run this command:
 
 .. code-block:: bash
 
@@ -170,10 +170,10 @@ To retrieve private key for your node address run this command:
 
 
 .. note::
-    Please store this private key safely, losing this will result in loss of XRK coins.
+    Please store this private key safely. Losing it will result in the loss of XRK tokens.
 
 
-After completing the above process, you can check for your node’s information (best block and synced block) by running following commands:
+After completing the above process, you can check for your node’s information (best block and synced block) by running the following commands:
 
 .. code-block:: bash
 
@@ -181,19 +181,19 @@ After completing the above process, you can check for your node’s information 
     rk-cli recordskeeper getblockchaininfo       #(for best block)
 
 
-Your node will sync up to the best block, and then only your node can start mining and your balance will get updated with the mined XRK coins.
+Your node will sync with the best block, and then only your node can start mining and your balance will get updated with the mined XRK tokens.
 
-In case you have entered the wrong ip-address then it will report this error:
+If you have entered the wrong IP address, it will report this error:
 
 .. warning::
 
     Error: Couldn't initialize permission database for blockchain recordskeeper. Probably rkd for this blockchain is already running. Exiting...
 
-Please check ip-address and port properly to connect to the RecordsKeeper Blockchain.
+Please check the IP address and port properly to connect to the RecordsKeeper blockchain.
 
 .. note::
 
-    If you have already created a wallet address and you want to add it as your miner address then run this command from the command line terminal:
+    If you have already created a wallet address and you want to add it as your miner address, then run this command from the command line terminal:
     
     .. code-block:: bash
 
@@ -204,9 +204,9 @@ Please check ip-address and port properly to connect to the RecordsKeeper Blockc
 Connecting to RecordsKeeper Blockchain after Permissions
 --------------------------------------------------------
 
-Once the permissions for RecordsKeeper Mainnet has been granted. You can directly connect to the RecordsKeeper chain and see your mining over the Public RecordsKeeper Blockchain. You can run following commands to connect to the RecordsKeeper Blockchain and view the mining address.
+Once the permissions for RecordsKeeper Mainnet have been granted, you can directly connect to the RecordsKeeper chain and see your mining progress. You can run the following commands to connect to the RecordsKeeper blockchain and view the mining address.
 
-As the IP configuration is already stored with you when you intiated the connection before, you can directly run the following command:
+As the IP configuration was already stored with you when you initiated the connection, you can directly run the following command:
 
 .. code-block:: bash
 
@@ -216,7 +216,7 @@ As the IP configuration is already stored with you when you intiated the connect
    :align: center
    :width: 693.433px
 
-You can run getinfo command or getaddressbalances command to see the balance in your node or directly the node address.
+You can run the getinfo command or getaddressbalances command to see the balance in your node or the node address.
 
 .. code-block:: bash
 
@@ -242,7 +242,7 @@ OR
 
 .. note::
 
-    Please do not use the address specified above, this address is only avaialble for the demo purpose.
+    Please do not use the address specified above. This address is only available for the demo purpose.
 
 .. _windows-stoprk:
 
@@ -251,7 +251,7 @@ Stopping RecordsKeeper Blockchain
 
 **RecordsKeeper Mainnet**
 
-    In case you want to stop your running Recordskeeper node then you can use the following command from your command line terminal:
+    If you want to stop your RecordsKeeper node, you can use the following command from your command line terminal:
 
 
     .. code-block:: bash
@@ -261,7 +261,7 @@ Stopping RecordsKeeper Blockchain
 
 **RecordsKeeper Testnet**
 
-    In case you want to stop your running Recordskeeper-test Blockchain node then you can use the following command from your command line terminal:
+    Ifyou want to stop your RecordsKeeper-test blockchain node, you can use the following command from your command line terminal:
 
 
     .. code-block:: bash
