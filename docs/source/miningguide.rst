@@ -11,7 +11,8 @@ The following guide explains the process to start mining in different operating 
 We are always looking to improve and provide best solution for Blockchain.
 
 .. toctree::
-    :maxdepth: 2
-     mininglinux
-     miningwindows   
-     miningmac
+   :maxdepth: 2
+
+   mininglinux
+   miningwindows
+   miningmac
