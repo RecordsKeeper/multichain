@@ -14,4 +14,4 @@ Join us at the following:
 * `Telegram <https://t.me/joinchat/B4T_PxInGAjiXLz1N66t3Q>`_
 
 
-If you still have questions, you can try searching or asking on the RecordsKeeper FAQ, or send us you queries at `RecordsKeeper Contact Us <https://www.recordskeeper.co/contact-us/>`_ Ideas for improving RecordsKeeper or this documentation are always welcome!
+If you still have questions, you can try searching or asking on the RecordsKeeper FAQ, or send us you queries at `RecordsKeeper Contact Us <https://www.recordskeeper.co/contact-us/>`_. Ideas for improving RecordsKeeper or this documentation are always welcome!
