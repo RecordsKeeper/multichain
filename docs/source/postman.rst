@@ -4,7 +4,7 @@ Getting Started with Postman
 
 This tutorial requires you to setup a RecordsKeeper blockchain and run the APIs through the Postman client. If you have not done so already, please download and install RecordsKeeper on a server. If you are using the RecordsKeeper blockchain on Windows, please read the Installation of Windows notes to adapt the instructions below.
 
-Download the latest `RecordsKeeper <https://github.com/RecordsKeeper/recordskeeper-core/releases>`_ build and put the downloded files under the root folder. You can also run these commands from the folder where the files are present.
+Download the latest `RecordsKeeper <https://github.com/RecordsKeeper/recordskeeper-core/releases>`_ build and put the downloaded files under the root folder. You can also run these commands from the folder where the files are present.
 
 Download the `Postman client <https://www.getpostman.com/apps>`_ from here.
 
