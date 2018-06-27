@@ -74,6 +74,7 @@ Contents
    miningguide
    postman
    usecases
+   sdk
    contributing
    faq
    contactus
