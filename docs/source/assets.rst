@@ -65,7 +65,7 @@ Assets Class
 
 .. class:: Assets
 
-Assets class is used to call assets related functions like create assets and list assets functions which are used on the RecordsKeeeper Blockchain. 
+    Assets class is used to call assets related functions like create assets and list assets functions which are used on the RecordsKeeeper Blockchain. 
 
 
 **1. Create Assets on the RecordsKeeper Blockchain**

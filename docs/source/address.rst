@@ -66,7 +66,7 @@ Address Class
 
 .. class:: Address
 
-Address class is used to call address related functions like generate new address, list all addresses and no of addresses on the node's wallet, check if given address is valid or not, check if given address has mining permission or not and check a particular address balance on the node functions which are used on the RecordsKeeeper Blockchain. 
+    Address class is used to call address related functions like generate new address, list all addresses and no of addresses on the node's wallet, check if given address is valid or not, check if given address has mining permission or not and check a particular address balance on the node functions which are used on the RecordsKeeeper Blockchain. 
 
 
 **1. Generate new address on the node's wallet**

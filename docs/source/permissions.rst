@@ -65,7 +65,7 @@ Permissions Class
 
 .. class:: Permissions
 
-Permissions class is used to call permissions related functions like grant and revoke permissions for an address functions which are used on the RecordsKeeeper Blockchain. 
+    Permissions class is used to call permissions related functions like grant and revoke permissions for an address functions which are used on the RecordsKeeeper Blockchain. 
 
 
 **1. Grant Permissions to an address on the RecordsKeeper Blockchain**

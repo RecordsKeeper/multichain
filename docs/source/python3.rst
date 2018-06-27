@@ -31,11 +31,11 @@ Classes
 .. toctree::
    :maxdepth: 2
  
-   address3
-   assets3
-   block3
-   blockchain3
-   permissions3
-   stream3
-   transaction3
-   wallet3
+   address
+   assets
+   block
+   blockchain
+   permissions
+   stream
+   transaction
+   wallet

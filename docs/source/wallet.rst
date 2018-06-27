@@ -65,7 +65,7 @@ Wallet Class
 
 .. class:: Wallet
 
-Wallet class is used to call wallet related functions like create wallet, retrieve private key of wallet address, retrieve wallet's information, dump wallet, lock wallet, unlock wallet, change wallet's password, create wallet's backup, import wallet's backup, sign message and verify message functions on RecordsKeeeper Blockchain. 
+    Wallet class is used to call wallet related functions like create wallet, retrieve private key of wallet address, retrieve wallet's information, dump wallet, lock wallet, unlock wallet, change wallet's password, create wallet's backup, import wallet's backup, sign message and verify message functions on RecordsKeeeper Blockchain. 
 
 
 **1. Create wallet on RecordsKeeper blockchain**

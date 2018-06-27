@@ -65,7 +65,7 @@ Blockchain Class
 
 .. class:: Blockchain
 
-Blockchain class is used to call blockchain related functions like retrieving blockchain parameters, retrieving node's information, retrieving mempool's information, retrieving node's permissions and check node's balance functions which are used on the RecordsKeeeper Blockchain. 
+    Blockchain class is used to call blockchain related functions like retrieving blockchain parameters, retrieving node's information, retrieving mempool's information, retrieving node's permissions and check node's balance functions which are used on the RecordsKeeeper Blockchain. 
 
 
 **1. Retrieve Blockchain parameters of RecordsKeeper Blockchain**
