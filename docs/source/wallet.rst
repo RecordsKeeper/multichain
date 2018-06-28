@@ -87,7 +87,7 @@ It will return the public address, public key and private key.
 
 **2. Retrieve private key of an address**
 
-You have to pass address argument to the getPrivateKey function call:
+You have to pass an address as the parameter to the getPrivateKey function call:
 
 * Public Address: address whose private key is to be retrieved
 
@@ -116,8 +116,7 @@ retrieveWalletinfo() function is used to retrieve node wallet's information.
     print result['tx count']     #prints wallet transaction count
     print result['unspent tx']   #prints unspent wallet transactions
 
-It will return wallet's balance, transaction count and unspent transactions.
-
+It will return the wallet's balance, transaction count and unspent transactions.
 
 **4. Create wallet's backup**
 
@@ -243,7 +242,7 @@ signMessage() function is used to change wallet's password and set new password.
     signMessage(private_key, message)
     signedMessage = signMessage(priavte_key, message)
 
-    print (signedMessage)   #prints signed message
+    print (signedMessage)  #prints signed message
 
 It will return the signed message.
 
@@ -262,6 +261,6 @@ verifyMessage() function is used to change wallet's password and set new passwor
     verifyMessage(address, signedMessage, message)
     validity = verifyMessage(address, signedMessage, message)
 
-    print (validity)     #prints validity of the message
+    print (validity)   #prints validity of the message
 
 It will return the validity of the message.

@@ -4,7 +4,7 @@ Blockchain Class Usage
 
 Library to work with Blockchain class in RecordsKeeper Blockchain.
 
-You can get chain information, node information, node's permissions, pending transaction information and node balance by using Blockchain class. You just have to pass parameters to invoke the pre-defined functions of Blockchain class.
+You can get chain information, node information, node's permissions, pending transaction information and node balance by using Blockchain class. You just have to pass the required parameters to invoke the pre-defined functions of Blockchain class.
 
 Libraries
 ---------
@@ -81,7 +81,7 @@ getChainInfo() function is used to retrieve Blockchain parameters.
     print result['chain-protocol']          #prints blockchain's protocol
     print result['chain-description']       #prints blockchain's description
     print result['root-stream-name']        #prints blockchain's root stream
-    print result['maximum-blocksize']      #prints blockchain's maximum block size
+    print result['maximum-blocksize']       #prints blockchain's maximum block size
     print result['default-network-port']    #prints blockchain's default network port
     print result['default-rpc-port']        #prints blockchain's default rpc port
     print result['mining-diversity']        #prints blockchain's mining diversity
@@ -143,9 +143,9 @@ checkNodeBalance() function is used to check the total balance of the node.
 .. code-block:: python
 
     checkNodeBalance()
-    node_balance = checkNodeBalance()     #checkNodeBalance() function call
+    node_balance = checkNodeBalance()  #checkNodeBalance() function call
   
-    print node_balance          #prints total balance of the node
+    print node_balance  #prints total balance of the node
 
-It will return the total balance of the node on RecordsKeeper Blockchain.
+It will return the total balance of the node on the RecordsKeeper Blockchain.
 

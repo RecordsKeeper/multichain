@@ -4,7 +4,7 @@ Assets Class Usage
 
 Library to work with RecordsKeeper assets.
 
-You can create new assets, send assets and list all assets by using Assets class. You just have to pass parameters to invoke the pre-defined functions of Assets class.
+You can create new assets, send assets and list all assets by using Assets class. You just have to pass the required parameters to invoke the pre-defined functions of Assets class.
 
 Libraries
 ---------
@@ -65,7 +65,7 @@ Assets Class
 
 .. class:: Assets
 
-    Assets class is used to call assets related functions like create assets and list assets functions which are used on the RecordsKeeeper Blockchain. 
+    Assets class is used to call asset related functions like create assets, send assets and list assets functions which are used on the RecordsKeeeper Blockchain. 
 
 
 **1. Create Assets on the RecordsKeeper Blockchain**
@@ -84,7 +84,7 @@ It will return the transaction id of the issued asset.
 
 **2. Send Assets to a particular address on the RecordsKeeper Blockchain**
 
-You have to pass these three arguments to the createAsset function call:
+You have to pass these three arguments to the sendAsset function call:
 
 * address: address which will send the asset
 * asset_name: name of the asset
@@ -96,15 +96,15 @@ sendAsset() function is used to send an asset.
 
     sendAsset(address, assetname, qty)  
 
-    txid = sendAsset(address, assetname, qty)              #sendAsset() function call   
+    txid = sendAsset(address, assetname, qty)  #sendAsset() function call   
 
-    print txid                  # prints transaction id of the sent asset
+    print txid  #prints transaction id of the sent asset
 
 It will return the transaction id of the sent asset.
 
 **3. List all assets on the RecordsKeeper Blockchain**
 
-retrieveAssets() function is used to list all assets, no of assets, issued quantity and issued transaction id of all the assets on RecordsKeeper Blockchain.
+retrieveAssets() function is used to list all the assets, no of the assets, issued quantity of the assets and issued transaction id of all the assets on the RecordsKeeper Blockchain.
 
 .. code-block:: python
 
@@ -116,6 +116,6 @@ retrieveAssets() function is used to list all assets, no of assets, issued quant
     print result['id']              #prints assets issued quantity
     print result['qty']             #prints assets issued transaction id
 
-It will return all the assets, the count of the assets, issued quantity of assets and issued transaction id of the asset on the RecordsKeeper Blockchain.
+It will return all the assets, the count of the assets, issued quantity of the assets and issued transaction id of the assets on the RecordsKeeper Blockchain.
 
 

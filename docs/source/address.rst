@@ -1,11 +1,10 @@
-====================
+===================
 Address Class Usage
-====================
+===================
 
 Library to work with RecordsKeeper addresses.
 
-You can generate new address, check all addresses, check address validity, check address permissions, check address balance
-by using Address class. You just have to pass parameters to invoke the pre-defined functions.
+You can generate new addresses, check all addresses, check validity of an address, check mining permission of an address, check balance of an address and import address on the node by using Address class. You just have to pass required parameters to invoke the pre-defined functions.
 
 Libraries
 ---------
@@ -66,7 +65,7 @@ Address Class
 
 .. class:: Address
 
-    Address class is used to call address related functions like generate new address, list all addresses and no of addresses on the node's wallet, check if given address is valid or not, check if given address has mining permission or not and check a particular address balance on the node functions which are used on the RecordsKeeeper Blockchain. 
+    Address class is used to call address related functions like generate new addresses, list all the node addresses, check if the given address is valid or not, check if given address has mining permission or not, check balance of an address and import address on the node.
 
 
 **1. Generate new address on the node's wallet**
@@ -89,7 +88,7 @@ It will return a new address of the wallet.
 You have to pass these two arguments to the getMultisigAddress function call:
 
 * nrequired: to pass the no of signatures that are must to sign a transaction
-* key: pass any no of comma-seperated public addresses that are to be used with this multisig address as a single variable 
+* key: pass a single variable of comma-seperated public keys
 
 getMultisigAddress() function is used to generate a new multisignature address.
 
@@ -109,7 +108,7 @@ It will return a new multisignature address on RecordsKeeper Blockchain.
 You have to pass these two arguments to the getMultisigWalletAddress function call:
 
 * nrequired: to pass the no of signatures that are must to sign a transaction
-* key: pass any no of comma-seperated public addresses that are to be used with this multisig address as a single variable
+* key: pass a single variable of comma-seperated public keys
 
 getMultisigWalletAddress() function is used to generate a new wallet address.
 
@@ -141,7 +140,7 @@ It will return all the addresses and the count of the addresses on the wallet.
 
 **5. Check validity of the address**
 
-You have to pass address as argument to the checkifValid function call:
+You have to pass an address as the parameter to the checkifValid function call:
 
 * Address: to check the validity
 
@@ -159,7 +158,7 @@ It will return if an address is valid or not.
 
 **6. Check if given address has mining permission or not**
 
-You have to pass address as argument to the checkifMineAllowed function call:
+You have to pass an address as the parameter to the checkifMineAllowed function call:
 
 * Address: to check the permission status
 
@@ -177,7 +176,7 @@ It will return if mining permission is allowed or not.
 
 **7. Check address balance on a particular node**
 
-You have to pass address as argument to the checkifMineAllowed function call:
+You have to pass an address as the parameter to the checkBalance function call:
 
 * Address: to check the balance
 
@@ -195,7 +194,7 @@ It will return the balance of the address on RecordsKeeper Blockchain.
 
 **8. Import a non-wallet address on RecordsKeeeper Blockchain**
 
-You have to pass address as argument to the importAddress function call:
+You have to pass an address as the parameter to the importAddress function call:
 
 * Address: non-wallet address to import on a particular node
 

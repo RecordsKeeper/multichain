@@ -4,7 +4,7 @@ Block Class Usage
 
 Library to work with RecordsKeeper block informaion.
 
-You can collect block information like block's transaction count, blocktime, blockhash, miner of the block by using block class. You just have to pass parameters to invoke the pre-defined functions of Block class.
+You can collect block information like block's transaction count, blocktime, blockhash, miner of the block by using block class.You just have to pass the required parameters to invoke the pre-defined functions of Block class.
 
 Libraries
 ---------
@@ -67,13 +67,13 @@ Block Class
 
 .. class:: Block
 
-    Block class is used to call block related function like blockinfo which is used to retrieve block details like block's hash value, size, nonce, transaction ids, transaction count, miner address, previous block hash, next block hash, merkleroot, blocktime and difficulty of the block for which you have made the query.
+    Block class is used to call block related function like blockinfo or retrieveBlocks which are used to retrieve block details like block's hash value, size, nonce, transaction ids, transaction count, miner address, previous block hash, next block hash, merkleroot, blocktime and difficulty of the queried block.
 
 **1. Block info to retrieve block information**
 
 You have to pass block height as the argument to the blockinfo function call:
 
-* Block height: height of the block of which you want to collect info
+* Block height: height of the block of which you want to collect information
 
 .. code-block:: python
 
@@ -113,4 +113,4 @@ You have to pass range of blocks i.e. blockrange can be 10-15. It can be passed 
     print result['blocktime']    #prints block time of the blocks
     print result['tx count']     #prints transaction count of the blocks
 
-It will return blockhash, miner address, blocktime and transaction count of the blocks.
+It will return blockhash, miner address, blocktime and transaction count of the queried blocks.

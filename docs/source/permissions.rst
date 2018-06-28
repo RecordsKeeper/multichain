@@ -4,7 +4,7 @@ Permissions Class Usage
 
 Library to work with Permission class in RecordsKeeper Blockchain.
 
-You can grant or revoke permissions like create, send, recieve, mine, admin, connect, issue and activate by using Permissions class. You just have to pass parameters to invoke the pre-defined functions.
+You can grant or revoke permissions like create, send, recieve, mine, admin, connect, issue and activate by using Permissions class. You just have to pass the required parameters to invoke the pre-defined functions.
 
 Libraries
 ---------
@@ -65,7 +65,7 @@ Permissions Class
 
 .. class:: Permissions
 
-    Permissions class is used to call permissions related functions like grant and revoke permissions for an address functions which are used on the RecordsKeeeper Blockchain. 
+    Permissions class is used to call permissions related functions like grant and revoke permissions of an address on the RecordsKeeeper Blockchain. 
 
 
 **1. Grant Permissions to an address on the RecordsKeeper Blockchain**
@@ -81,9 +81,9 @@ grantPermission() function is used to grant permissions like connect, send, rece
 
     grantPermission(address, permissions)  
 
-    result = grantPermission(address, permissions)          #grantPermission() function call   
+    result = grantPermission(address, permissions)  #grantPermission() function call   
 
-    print txid           # prints response of the grant permision transaction
+    print txid  #prints response of the grant permision transaction
 
 It will return the transaction id of the permission transaction.
 
@@ -100,8 +100,8 @@ revokePermission() function is used to revoke permissions like connect, send, re
 .. code-block:: python
 
     revokePermission(address, permissions)  
-    result = revokePermission(address, permissions)       #revokePermission() function call
+    result = revokePermission(address, permissions)  #revokePermission() function call
   
-    print result         # prints response of the revoke permision transaction
+    print result  #prints response of the revoke permision transaction
 
 It will return the transaction id of the permission transaction.

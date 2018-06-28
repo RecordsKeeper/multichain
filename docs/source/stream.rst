@@ -4,7 +4,7 @@ Stream Class Usage
 
 Library to work with RecordsKeeper streams.
 
-You can publish, retrieve and verify stream data by using Stream class. You just have to pass parameters to invoke the pre-defined functions of Stream class.
+You can publish, retrieve and verify stream data by using Stream class. You just have to pass the required parameters to invoke the pre-defined functions of the Stream class.
 
 Libraries
 ---------
@@ -65,19 +65,16 @@ Stream Class
 
 .. class:: Stream
 
-    Stream class to call stream related functions like publish, retrievewithtxid, retrieveWithAddress, retrieveWithKey and verify data functions which are used to publish data into the stream, retrieve data from the stream and verify data from the stream. 
+    Stream class to call stream related functions like publish, retrieve, retrieveWithAddress, retrieveWithKey and verify data functions which are used to publish data into the stream, retrieve data from the stream and verify data from the stream. 
 
 **1. Publish**
 
-You have to pass these four arguments to the publish function call:
+You have to pass these four parameters to the publish function call:
 
 * Data Hex of the data to be published
 * Address of the publihser
 * Stream to which you want your data to be published
 * key Value for the data to be published
-
-
-The **data.hex()** will convert the data into a hex value
 
 .. code-block:: python
 
@@ -87,7 +84,7 @@ The **data.hex()** will convert the data into a hex value
 
     print txid    #prints the transaction id of the data published
 
-It will return the transaction id of the published data, use this information to retrieve the particular data from the stream.
+It will return the transaction id of the published data.
 
 
 **2. Retrieve an existing item from a particular stream against a transaction id**
@@ -95,16 +92,16 @@ It will return the transaction id of the published data, use this information to
 You have to pass these two arguments to the retrieve function call:
 
 * Stream name: which you want to access
-* Transaction id: id of the data you want to retrieve
+* Transaction id: id of the data that you want to retrieve
 
 .. code-block:: python
 
-    retrieve(stream, txid)          #call retrieve function with stream and txid as the required parameters
+    retrieve(stream, txid)    #call retrieve function with stream and txid as the required parameters
     result = retrieve(stream, txid) 
   
-    print result    #prints info of the transaction 
+    print result  #prints data 
 
-It will return the item's details like publisher address, key value, confirmations, hexdata and transaction id.
+It will return the data corresponding to the passed transaction id.
 
 
 **3. Retrieve an item against a particular publisher address**
@@ -158,7 +155,7 @@ You have to pass these three arguments to the retrieveWithKey function call:
     verifyData(stream, data, count)
     result = verifyData(stream, data, count)
 
-    print result                #prints if verification is successful or not
+    print result    #prints if verification is successful or not
 
 It will return the result if verification is successful or not.
 

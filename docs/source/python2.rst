@@ -20,6 +20,11 @@ Compatibility
 
 The SDK has been tested on python version 2.7.
 
+Requirement
+-----------
+
+You have to create your own configuration file to interact with the blockchain with the required parameters given in the sample config file of these libraries.
+
 
 Classes
 -------

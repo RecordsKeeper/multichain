@@ -4,7 +4,7 @@ Transaction Class Usage
 
 Library to work with RecordsKeeper transactions.
 
-You can send transaction, create raw transaction, sign raw transaction, send raw transaction, send signed transaction, retrieve transaction information and calculate transaction's fees by using transaction class. You just have to pass parameters to invoke the pre-defined functions.
+You can send transaction, create raw transaction, sign raw transaction, send raw transaction, send signed transaction, retrieve transaction information and calculate transaction's fees by using transaction class. You just have to pass the required parameters to invoke the pre-defined functions.
 
 Libraries
 ---------
@@ -65,7 +65,7 @@ Transaction Class
 
 .. class:: Transaction
 
-    Transaction class is used to call transaction related functions like create raw transaction, sign transaction, send transaction , retrieve transaction and verify transaction functions which are used to create raw transactions, send transactions, sign transactions, retrieve transactions and verify transactions on the RecordsKeeeper Blockchain. 
+    Transaction class is used to call transaction related functions like create raw transaction, sign transaction, send transaction, retrieve transaction and verify transaction functions which are used to create raw transactions, send transactions, sign transactions, retrieve transactions and verify transactions on the RecordsKeeeper Blockchain. 
 
 
 **1. Send Transaction without signing with private key**
@@ -74,7 +74,7 @@ You have to pass these three arguments to the sendTransaction function call:
 
 * Transaction's sender address
 * Transaction's reciever address
-* Amount to be sent in transaction
+* Amount to be sent in the transaction
 
 sendTransaction() function is used to send transaction by passing reciever's address, sender's address and amount.
 
@@ -84,12 +84,12 @@ sendTransaction() function is used to send transaction by passing reciever's add
 
     txid = sendTransaction(sender_address, reciever_address, data, amount)   
 
-    print txid           #prints transaction id of the sent transaction
+    print txid   #prints transaction id of the sent transaction
 
 It will return the transaction id of the raw transaction.
 
 
-**2. Send Transaction by signing with private key**
+**2. Send Transaction by signing it with private key**
 
 You have to pass these four arguments to the sendSignedTransaction function call:
 
@@ -98,7 +98,7 @@ You have to pass these four arguments to the sendSignedTransaction function call
 * Amount to be sent in transaction
 * Private key of the sender's address
 
-sendSignedTransaction() function is used to send transaction by passing reciever's address, sender's address, private key of sender and amount. In this function private key is required to sign transaction.
+sendSignedTransaction() function is used to send transaction by passing reciever's address, sender's address, private key of the sender and the amount. In this function private key is required to sign transaction.
 
 .. code-block:: python
 
@@ -181,8 +181,8 @@ retrieveTransaction() function is used to retrieve transaction's information by 
     retrieveTransaction(tx_id)
     result = retrieveTransaction(tx_id)
 
-    print (result['sent data'])       #prints sent data
-    print (result['sent amount'])     #prints sent amount
+    print result['sent data']       #prints sent data
+    print result['sent amount']     #prints sent amount
      
 
 It will return the sent data and sent amount of the retrieved transaction.
@@ -202,7 +202,7 @@ getFee() function is used to calculate transaction's fee by passing transaction 
     getFee(address, tx_id)
     Fees = getFee(address, tx_id)
 
-    print (Fees)             #prints fees consumed in the verified transaction
+    print (Fees)  #prints fees consumed in the verified transaction
     
 It will return the fees consumed in the transaction.
 
